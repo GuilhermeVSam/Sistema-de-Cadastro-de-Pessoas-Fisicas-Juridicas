@@ -13,3 +13,18 @@ C:\Users\guiwo\Documents\Senai-Programação\C#\Testes OOP\OOP\obj\Debug\net6.0\
 C:\Users\guiwo\Documents\Senai-Programação\C#\Testes OOP\OOP\obj\Debug\net6.0\ref\CadastroDePessoas.dll
 C:\Users\guiwo\Documents\Senai-Programação\C#\Testes OOP\OOP\obj\Debug\net6.0\CadastroDePessoas.pdb
 C:\Users\guiwo\Documents\Senai-Programação\C#\Testes OOP\OOP\obj\Debug\net6.0\CadastroDePessoas.genruntimeconfig.cache
+C:\Users\guiwo\Documents\Senai-GIT\Sistema de Cadastro de Pessoas Fisicas Juridicas\bin\Debug\net6.0\CadastroDePessoas.exe
+C:\Users\guiwo\Documents\Senai-GIT\Sistema de Cadastro de Pessoas Fisicas Juridicas\bin\Debug\net6.0\CadastroDePessoas.deps.json
+C:\Users\guiwo\Documents\Senai-GIT\Sistema de Cadastro de Pessoas Fisicas Juridicas\bin\Debug\net6.0\CadastroDePessoas.runtimeconfig.json
+C:\Users\guiwo\Documents\Senai-GIT\Sistema de Cadastro de Pessoas Fisicas Juridicas\bin\Debug\net6.0\CadastroDePessoas.dll
+C:\Users\guiwo\Documents\Senai-GIT\Sistema de Cadastro de Pessoas Fisicas Juridicas\bin\Debug\net6.0\ref\CadastroDePessoas.dll
+C:\Users\guiwo\Documents\Senai-GIT\Sistema de Cadastro de Pessoas Fisicas Juridicas\bin\Debug\net6.0\CadastroDePessoas.pdb
+C:\Users\guiwo\Documents\Senai-GIT\Sistema de Cadastro de Pessoas Fisicas Juridicas\obj\Debug\net6.0\CadastroDePessoas.csproj.AssemblyReference.cache
+C:\Users\guiwo\Documents\Senai-GIT\Sistema de Cadastro de Pessoas Fisicas Juridicas\obj\Debug\net6.0\CadastroDePessoas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guiwo\Documents\Senai-GIT\Sistema de Cadastro de Pessoas Fisicas Juridicas\obj\Debug\net6.0\CadastroDePessoas.AssemblyInfoInputs.cache
+C:\Users\guiwo\Documents\Senai-GIT\Sistema de Cadastro de Pessoas Fisicas Juridicas\obj\Debug\net6.0\CadastroDePessoas.AssemblyInfo.cs
+C:\Users\guiwo\Documents\Senai-GIT\Sistema de Cadastro de Pessoas Fisicas Juridicas\obj\Debug\net6.0\CadastroDePessoas.csproj.CoreCompileInputs.cache
+C:\Users\guiwo\Documents\Senai-GIT\Sistema de Cadastro de Pessoas Fisicas Juridicas\obj\Debug\net6.0\CadastroDePessoas.dll
+C:\Users\guiwo\Documents\Senai-GIT\Sistema de Cadastro de Pessoas Fisicas Juridicas\obj\Debug\net6.0\ref\CadastroDePessoas.dll
+C:\Users\guiwo\Documents\Senai-GIT\Sistema de Cadastro de Pessoas Fisicas Juridicas\obj\Debug\net6.0\CadastroDePessoas.pdb
+C:\Users\guiwo\Documents\Senai-GIT\Sistema de Cadastro de Pessoas Fisicas Juridicas\obj\Debug\net6.0\CadastroDePessoas.genruntimeconfig.cache

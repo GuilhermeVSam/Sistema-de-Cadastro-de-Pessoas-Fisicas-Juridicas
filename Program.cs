@@ -5,11 +5,7 @@ class Program
         static void Main(string[] args)
         {
             string opcao;
-
-            List<PessoaFisica> listaPf = new List<PessoaFisica>();
-
-            List<PessoaJuridica> listaPj = new List<PessoaJuridica>();
-
+            
             barraCarregamento("Iniciando");
             do{
                 Console.ForegroundColor = ConsoleColor.Black;
@@ -84,7 +80,7 @@ class Program
                 bool idadeValida = pf.ValidarDataNascimento(pf.DataDeNascimento);
                 if (idadeValida == true){
                 Console.WriteLine($"Cadastro Aprovado");
-                using(StreamWriter sw = new StreamWriter($"PessoasFísicas.txt", true)){
+                using(StreamWriter sw = new StreamWriter($"{pf.nome}.txt", true)){
                     sw.BaseStream.Seek(0, SeekOrigin.End);
                     sw.WriteLine($"Nome: {pf.nome}, CPF:{pf.cpf}, Endereço: {pf.endereco.Logradouro}, {pf.endereco.Numero}, {pf.endereco.Complemento}");
                     Console.WriteLine($"Nome: {pf.nome}, CPF: {pf.cpf}, Data de Nascimento: {pf.DataDeNascimento}");
@@ -99,7 +95,7 @@ class Program
                 break;
 
                 case "2":
-                using(StreamReader sr = new StreamReader("PessoasFísicas.txt"))
+                using(StreamReader sr = new StreamReader("Guilerme.txt"))
                 {
                     string linha;
                     while((linha = sr.ReadLine()) != null){
@@ -111,17 +107,19 @@ class Program
                 break;
 
                 case "3":
-                Console.WriteLine("Digite o CNPJ da Pessoa que deseja Remover");
-                string cpf = Console.ReadLine();
-
-                PessoaFisica PFRetornada = listaPf.Find(pf => pf.cpf == cpf);
-
-                if(PFRetornada != null){
-                    listaPf.Remove(PFRetornada);
-                    Console.WriteLine("Pessoa Removida com Sucesso");
-                }else{
-                    Console.WriteLine("CPF não encontrado");
-                }
+                    Console.WriteLine("Digite o NOME da Pessoa que Deseja Remover (necessário incluir .txt após o nome. Exemplo: Guilherme.txt):");
+                    string path = Console.ReadLine();
+                    bool existe = File.Exists(path);
+                    if (existe == true)
+                    {
+                        Console.WriteLine("Pessoa Encontrada");
+                        File.Delete(path);
+                        Console.WriteLine("Pessoa Removida com Sucesso");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Pessoa Não Encontrada");
+                    }
                 break;
 
                 case "4":
@@ -169,7 +167,7 @@ class Program
                 Console.WriteLine($"Nome: {pj.nome}, CNPJ: {pj.cnpj}, Razão Social: {pj.RazaoSocial}");
                 Console.WriteLine($"Rua: {pj.endereco.Logradouro}, {pj.endereco.Numero}, {pj.endereco.Complemento}");
                 
-                using(StreamWriter sw = new StreamWriter($"PessoasJurídicas.txt", true)){
+                using(StreamWriter sw = new StreamWriter($"{pj.nome}.txt", true)){
                     sw.BaseStream.Seek(0, SeekOrigin.End);
                     sw.WriteLine($"Nome: {pj.nome}, CPF:{pj.cnpj}, Razão Social: {pj.RazaoSocial} Endereço: {pj.endereco.Logradouro}, {pj.endereco.Numero}, {pj.endereco.Complemento}");
                 }
@@ -178,7 +176,7 @@ class Program
                 break;
 
                 case "5":
-                using(StreamReader sr = new StreamReader("PessoasJurídicas.txt"))
+                using(StreamReader sr = new StreamReader("Guilerme"))
                 {
                     string linha;
                     while((linha = sr.ReadLine()) != null){
@@ -190,18 +188,17 @@ class Program
                 break;
 
                 case "6":
-
-                Console.WriteLine("Digite o CNPJ da Pessoa que deseja Remover");
-                string cnpj = Console.ReadLine();
-
-                PessoaJuridica PJLocalizada = listaPj.Find(PJ => PJ.cnpj == cnpj);
-
-                if (PJLocalizada == null){
-                    listaPj.Remove(PJLocalizada);
-                    Console.WriteLine("Pessoa Removida.");
-                } else{
-                    Console.WriteLine("CNPJ não encontrado.");
-                }
+                Console.WriteLine("Digite o NOME da Pessoa que Deseja Remover (necessário incluir .txt após o nome. Exemplo: Guilherme.txt):");
+                string path2 = Console.ReadLine();
+                bool existe2 = File.Exists(path2);
+                if (existe2 == true)
+                    {
+                        Console.WriteLine("Pessoa Encontrada");
+                        File.Delete(path2);
+                        Console.WriteLine("Pessoa Removida com Sucesso");
+                    }else{
+                        Console.WriteLine("Pessoa Não Encontrada");
+                    }
                 break;
 
                 case "0":

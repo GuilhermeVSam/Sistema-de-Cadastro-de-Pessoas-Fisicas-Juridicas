@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\guiwo\\Documents\\Senai-Programação\\C#\\Testes OOP\\OOP\\CadastroDePessoas.csproj",
+      "projectUniqueName": "C:\\Users\\guiwo\\Documents\\Senai-GIT\\Sistema de Cadastro de Pessoas Fisicas Juridicas\\CadastroDePessoas.csproj",
       "projectName": "CadastroDePessoas",
-      "projectPath": "C:\\Users\\guiwo\\Documents\\Senai-Programação\\C#\\Testes OOP\\OOP\\CadastroDePessoas.csproj",
+      "projectPath": "C:\\Users\\guiwo\\Documents\\Senai-GIT\\Sistema de Cadastro de Pessoas Fisicas Juridicas\\CadastroDePessoas.csproj",
       "packagesPath": "C:\\Users\\guiwo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\guiwo\\Documents\\Senai-Programação\\C#\\Testes OOP\\OOP\\obj\\",
+      "outputPath": "C:\\Users\\guiwo\\Documents\\Senai-GIT\\Sistema de Cadastro de Pessoas Fisicas Juridicas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\guiwo\\AppData\\Roaming\\NuGet\\NuGet.Config"
