@@ -25,7 +25,7 @@ Para rodar a aplicaçao, é necessário ter instalado os seguintes programas:
 Com os pré-requisitos instalados, siga o passo a passo abaixo para rodar o programa:
 
 * Baixe a pasta com todos os seus respectivos arquivos.
-![Download da Pasta] (https://prnt.sc/H2ii9gk-NGwf)
+![Download da Pasta](https://prnt.sc/H2ii9gk-NGwf)
 
 * Extraia a pasta para qualquer local do seu computador.
 
