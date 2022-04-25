@@ -5,7 +5,7 @@ Sistema para cadastrar tanto Pessoas Fisicas quanto Jurídicas.
 ### Features:
 - [X] Armazenar os usuarios cadastrados em arquivos .txt.
 - [X] Exibir no console os usuarios cadastrados com seus respectivos CPF's/CNPJ's.
-- [ ] Remover usuarios cadastrados.
+- [X] Remover usuarios cadastrados.
 
 ### Tecnologias Utilizadas:
 
