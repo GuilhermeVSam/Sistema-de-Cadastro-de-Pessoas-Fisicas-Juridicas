@@ -13,7 +13,7 @@ As seguintes tecnologias foram utilizadas na construcao do projeto:
 - [Visual Studio Code] (https://code.visualstudio.com)
 - [Microsoft .NET SDK] (https://dotnet.microsoft.com/en-us/download)
 
-### Pré-requisitos de Instalaçao:
+### Pré-requisitos:
 
 Para rodar a aplicaçao, é necessário ter instalado os seguintes programas:
 
